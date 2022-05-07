@@ -1,0 +1,5 @@
+07/05/2022
+
+PatchSod.tph.........14 entrées     (3 descriptions et 11 Paldragon)
+
+PatchSodVouvoiement.tph.........4 entrées  ("BDIMOEDO.DLG", Imoen Doppelganger) 

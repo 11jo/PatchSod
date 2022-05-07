@@ -1,0 +1,27 @@
+BACKUP ~PatchSod/backup~
+SUPPORT ~~
+VERSION ~~
+README ~~
+
+LANGUAGE ~Francais~
+         ~fr_FR~
+         ~PatchSod/Corrections/setup.tra~
+         ~PatchSod/Corrections/PatchSod.tra~
+        
+BEGIN @1 DESIGNATED 10 // Correction des vouvoiements / tutoiements dans Baldur's Gate : Enhanced Edition et Siege of Dragonspear
+	REQUIRE_PREDICATE GAME_IS ~bgee eet~ @0 // Baldur's Gate : Enhanced Edition et Siege of Dragonspear ou EET sont necessaire pour l'installation 
+	INCLUDE ~PatchSod/PatchSodVouvoiement.tph~
+
+BEGIN @2 DESIGNATED 20 // Patch de la traduction de Baldur's Gate : Enhanced Edition et Siege of Dragonspear
+	REQUIRE_PREDICATE GAME_IS ~bgee eet~ @0 // Baldur's Gate : Enhanced Edition et Siege of Dragonspear ou EET sont necessaire pour l'installation
+	INCLUDE ~PatchSod/PatchSod.tph~
+			
+/*BEGIN @3 DESIGNATED 30 // ATTENTION BIEN LIRE README Version Feminine Dominante pour BGEE, BG2EE, EET
+	REQUIRE_PREDICATE GAME_IS ~bgee eet~ @4 // Pour BGEE, BG2EE, EET
+	INCLUDE ~PatchSod/PatchFeminin.tph~*/
+	
+	
+
+	
+
+

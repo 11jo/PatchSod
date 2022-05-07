@@ -1,0 +1,21 @@
+﻿
+
+
+- Correction de la version francaise de Dragonspear. A partir de la ligne @33999.
+
+Liste des changements :
+
+- Vougedragon...to...Paldragon
+
+- Chambre forte...to...Crypte
+
+- Dispater...to...Dïs Pater  (Ce chapeau "~" sur le Dīs ne fonctionne pas dans le jeu !)
+
+- Mystryl...to...Mystra ??? même déesse reincarner... différente époque...(Pas de changement pour l'instant)???
+
+
+Tutoiement vouvoiement :
+
+- Imoen..........Tutoiement 
+
+
